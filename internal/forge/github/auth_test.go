@@ -14,12 +14,12 @@ import (
 	"testing"
 
 	"github.com/charmbracelet/log"
+	"github.com/dieend/git-spice/internal/secret"
+	"github.com/dieend/git-spice/internal/ui"
+	"github.com/dieend/git-spice/internal/ui/uitest"
 	"github.com/rogpeppe/go-internal/testscript"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/secret"
-	"go.abhg.dev/gs/internal/ui"
-	"go.abhg.dev/gs/internal/ui/uitest"
 	"golang.org/x/oauth2"
 )
 

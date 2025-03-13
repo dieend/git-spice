@@ -9,11 +9,11 @@ import (
 
 	"go.abhg.dev/testing/stub"
 
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/logutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/logutil"
 )
 
 // SetListChangeCommentsPageSize changes the page size

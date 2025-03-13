@@ -1,4 +1,4 @@
-module go.abhg.dev/gs/doc
+module github.com/dieend/git-spice/doc
 
 go 1.23
 

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/logutil"
 	"github.com/shurcooL/githubv4"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/logutil"
 	"go.abhg.dev/testing/stub"
 )
 

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/must"
-	"go.abhg.dev/gs/internal/spice"
-	"go.abhg.dev/gs/internal/text"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/must"
+	"github.com/dieend/git-spice/internal/spice"
+	"github.com/dieend/git-spice/internal/text"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 type branchRenameCmd struct {

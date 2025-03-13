@@ -8,9 +8,9 @@ import (
 	"os/exec"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/must"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/must"
 )
 
 // NewRepository creates a new Git repository

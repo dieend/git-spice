@@ -14,11 +14,11 @@ import (
 	"strings"
 	"time"
 
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/maputil"
-	"go.abhg.dev/gs/internal/must"
-	"go.abhg.dev/gs/internal/sliceutil"
-	"go.abhg.dev/gs/internal/spice/state/storage"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/maputil"
+	"github.com/dieend/git-spice/internal/must"
+	"github.com/dieend/git-spice/internal/sliceutil"
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 )
 
 // ErrTrunk is returned when a trunk branch is used in a request

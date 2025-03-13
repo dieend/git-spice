@@ -15,7 +15,7 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 const (

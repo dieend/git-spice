@@ -6,10 +6,10 @@ import (
 	"slices"
 
 	"github.com/alecthomas/kong"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/ui"
-	"go.abhg.dev/gs/internal/ui/widget"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/ui"
+	"github.com/dieend/git-spice/internal/ui/widget"
 )
 
 type branchCmd struct {

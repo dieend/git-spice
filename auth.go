@@ -10,10 +10,10 @@ import (
 
 	"github.com/alecthomas/kong"
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 type authCmd struct {

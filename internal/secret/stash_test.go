@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/secret"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/zalando/go-keyring"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/secret"
 )
 
 func TestMain(m *testing.M) {

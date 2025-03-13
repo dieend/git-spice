@@ -11,9 +11,9 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
+	"github.com/dieend/git-spice/internal/ui"
+	"github.com/dieend/git-spice/internal/ui/fliptree"
 	"github.com/sahilm/fuzzy"
-	"go.abhg.dev/gs/internal/ui"
-	"go.abhg.dev/gs/internal/ui/fliptree"
 )
 
 // BranchSelectKeyMap defines the key bindings for [Select].

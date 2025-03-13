@@ -9,8 +9,8 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"go.abhg.dev/gs/internal/execedit"
-	"go.abhg.dev/gs/internal/osutil"
+	"github.com/dieend/git-spice/internal/execedit"
+	"github.com/dieend/git-spice/internal/osutil"
 )
 
 // OpenEditorKeyMap defines the key bindings for [OpenEditor].

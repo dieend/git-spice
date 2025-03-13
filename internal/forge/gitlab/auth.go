@@ -13,10 +13,10 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/lipgloss"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/secret"
-	"go.abhg.dev/gs/internal/text"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/secret"
+	"github.com/dieend/git-spice/internal/text"
+	"github.com/dieend/git-spice/internal/ui"
 	"golang.org/x/oauth2"
 )
 

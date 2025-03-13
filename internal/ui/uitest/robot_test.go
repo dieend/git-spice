@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/dieend/git-spice/internal/text"
+	"github.com/dieend/git-spice/internal/ui"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/text"
-	"go.abhg.dev/gs/internal/ui"
 )
 
 func TestRobotView_simple(t *testing.T) {

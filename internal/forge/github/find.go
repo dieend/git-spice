@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
 )
 
 type findPRNode struct {

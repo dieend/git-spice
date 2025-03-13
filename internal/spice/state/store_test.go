@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/spice/state/storage"
 )
 
 func TestStore(t *testing.T) {

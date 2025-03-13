@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/cmputil"
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/cmputil"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // EditChange edits an existing change in a repository.

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/logutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/logutil"
 )
 
 func TestParseMode(t *testing.T) {

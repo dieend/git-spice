@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/charmbracelet/log"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/spice/state/storage"
 )
 
 // NewTestService creates a new Service for testing.

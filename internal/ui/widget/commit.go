@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/charmbracelet/lipgloss"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/ui"
 	"github.com/dustin/go-humanize"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/ui"
 )
 
 // CommitSummary is the summary of a single commit.

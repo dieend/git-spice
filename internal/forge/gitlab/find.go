@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
 )
 
 func basicMergeRequestToFindChangeItem(mr *gitlab.BasicMergeRequest) *forge.FindChangeItem {

@@ -9,13 +9,13 @@ import (
 
 	"github.com/alecthomas/kong"
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/spice"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/text"
-	"go.abhg.dev/gs/internal/ui"
-	"go.abhg.dev/gs/internal/ui/widget"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/spice"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/text"
+	"github.com/dieend/git-spice/internal/ui"
+	"github.com/dieend/git-spice/internal/ui/widget"
 )
 
 // branchSplitCmd splits a branch into two or more branches

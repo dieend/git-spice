@@ -6,10 +6,10 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/sliceutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/sliceutil"
 	"go.uber.org/mock/gomock"
 )
 

@@ -9,8 +9,8 @@ import (
 	"io"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/must"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/must"
 )
 
 // GitRepository is the subset of the git.Repository API used by the state package.

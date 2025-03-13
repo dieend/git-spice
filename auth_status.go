@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/secret"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/secret"
 )
 
 type authStatusCmd struct{}

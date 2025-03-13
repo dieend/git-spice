@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	"github.com/alecthomas/kong"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/spice"
+	"github.com/dieend/git-spice/internal/text"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/spice"
-	"go.abhg.dev/gs/internal/text"
 )
 
 func TestIntegrationConfig_loadFromGit(t *testing.T) {

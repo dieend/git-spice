@@ -14,9 +14,9 @@ import (
 	"regexp"
 	"sync"
 
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/secret"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/secret"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 // Registry is a collection of known code forges.

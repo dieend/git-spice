@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/git/gittest"
+	"github.com/dieend/git-spice/internal/logutil"
+	"github.com/dieend/git-spice/internal/mockedit"
+	"github.com/dieend/git-spice/internal/text"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/git/gittest"
-	"go.abhg.dev/gs/internal/logutil"
-	"go.abhg.dev/gs/internal/mockedit"
-	"go.abhg.dev/gs/internal/text"
 )
 
 func TestRebase_deliberateInterrupt(t *testing.T) {

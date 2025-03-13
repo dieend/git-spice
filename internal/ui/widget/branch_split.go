@@ -7,9 +7,9 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/must"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/must"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 // BranchSplitStyle defines the styles for [BranchSplit].

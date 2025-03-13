@@ -10,13 +10,13 @@ import (
 	"sync"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/forge/stacknav"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/secret"
-	"go.abhg.dev/gs/internal/spice"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/forge/stacknav"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/secret"
+	"github.com/dieend/git-spice/internal/spice"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 // submitSession is a single session of submitting branches.

@@ -9,14 +9,14 @@ import (
 
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/must"
-	"go.abhg.dev/gs/internal/spice"
-	"go.abhg.dev/gs/internal/spice/state"
-	"go.abhg.dev/gs/internal/ui"
-	"go.abhg.dev/gs/internal/ui/fliptree"
-	"go.abhg.dev/gs/internal/ui/widget"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/must"
+	"github.com/dieend/git-spice/internal/spice"
+	"github.com/dieend/git-spice/internal/spice/state"
+	"github.com/dieend/git-spice/internal/ui"
+	"github.com/dieend/git-spice/internal/ui/fliptree"
+	"github.com/dieend/git-spice/internal/ui/widget"
 )
 
 type logCmd struct {

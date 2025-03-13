@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/dieend/git-spice/internal/cmputil"
+	"github.com/dieend/git-spice/internal/forge"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/cmputil"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // GitLab tracks draft status in the title of a merge request

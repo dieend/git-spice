@@ -6,9 +6,9 @@ import (
 	"iter"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/git"
-	"go.abhg.dev/gs/internal/spice/state"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/git"
+	"github.com/dieend/git-spice/internal/spice/state"
 )
 
 //go:generate mockgen -destination=mock_service_test.go -package=spice . GitRepository,Store

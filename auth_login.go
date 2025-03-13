@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/secret"
-	"go.abhg.dev/gs/internal/text"
-	"go.abhg.dev/gs/internal/ui"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/secret"
+	"github.com/dieend/git-spice/internal/text"
+	"github.com/dieend/git-spice/internal/ui"
 )
 
 type authLoginCmd struct {

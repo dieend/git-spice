@@ -8,8 +8,8 @@ import (
 	"os/exec"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
-	"go.abhg.dev/gs/internal/logutil"
+	"github.com/dieend/git-spice/internal/forge"
+	"github.com/dieend/git-spice/internal/logutil"
 )
 
 type submitChangeRequest struct {
