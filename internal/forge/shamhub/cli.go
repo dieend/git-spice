@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dieend/git-spice/internal/logutil"
 	"github.com/rogpeppe/go-internal/testscript"
-	"go.abhg.dev/gs/internal/logutil"
 	"go.abhg.dev/io/ioutil"
 	"gopkg.in/yaml.v3"
 )

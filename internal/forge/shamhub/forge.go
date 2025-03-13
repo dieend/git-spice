@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/forge"
+	"github.com/dieend/git-spice/internal/forge"
 )
 
 // Options defines CLI options for the ShamHub forge.

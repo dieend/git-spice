@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.abhg.dev/gs/internal/git"
+	"github.com/dieend/git-spice/internal/git"
 )
 
 // UnusedBranchName returns a branch name that is not in use in the given remote,

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // _draftPrefix is the prefix added for Draft merge requests.

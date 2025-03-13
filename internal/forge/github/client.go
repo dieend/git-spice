@@ -3,8 +3,8 @@ package github
 import (
 	"net/http"
 
+	"github.com/dieend/git-spice/internal/graphqlutil"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/graphqlutil"
 )
 
 func newGitHubEnterpriseClient(

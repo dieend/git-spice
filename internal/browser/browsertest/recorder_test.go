@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/browser/browsertest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/browser/browsertest"
 )
 
 func TestRecorder(t *testing.T) {

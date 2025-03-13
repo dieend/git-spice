@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/must"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/must"
 )
 
 type gitlabClient struct {

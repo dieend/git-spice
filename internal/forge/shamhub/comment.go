@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"go.abhg.dev/gs/internal/forge"
+	"github.com/dieend/git-spice/internal/forge"
 )
 
 // ChangeComment is a comment made on ShamHub.

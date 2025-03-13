@@ -12,9 +12,9 @@ import (
 	"unicode"
 
 	"github.com/charmbracelet/lipgloss"
+	"github.com/dieend/git-spice/internal/ui"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/ui"
 	"gopkg.in/yaml.v3"
 	"pgregory.net/rapid"
 )

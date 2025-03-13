@@ -3,9 +3,9 @@ package sliceutil_test
 import (
 	"testing"
 
+	"github.com/dieend/git-spice/internal/sliceutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/sliceutil"
 )
 
 func TestCollectErr(t *testing.T) {

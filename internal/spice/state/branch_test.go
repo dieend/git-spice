@@ -8,9 +8,9 @@ import (
 	"slices"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/spice/state/storage"
 	"pgregory.net/rapid"
 )
 

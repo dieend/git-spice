@@ -3,8 +3,8 @@ package gitlab
 import (
 	"context"
 
+	"github.com/dieend/git-spice/internal/forge"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // ChangeTemplatePaths reports the allowed paths for possible MR templates.

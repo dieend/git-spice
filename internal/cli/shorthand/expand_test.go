@@ -3,8 +3,8 @@ package shorthand_test
 import (
 	"testing"
 
+	"github.com/dieend/git-spice/internal/cli/shorthand"
 	"github.com/stretchr/testify/assert"
-	"go.abhg.dev/gs/internal/cli/shorthand"
 )
 
 func TestExpand(t *testing.T) {

@@ -95,7 +95,7 @@ To **build from source**, follow these steps:
 2. Run the following command:
 
     ```bash
-    go install go.abhg.dev/gs@latest
+    go install github.com/dieend/git-spice@latest
     ```
 
 ## Next steps

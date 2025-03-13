@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/charmbracelet/log"
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // Repository is a GitHub repository.

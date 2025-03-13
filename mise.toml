@@ -79,7 +79,7 @@ run = "go mod tidy -diff"
 description = "Ensure go.mod and go.sum are up to date"
 
 [tasks.build]
-run = "go install go.abhg.dev/gs"
+run = "go install github.com/dieend/git-spice"
 wait_for = ["generate"]
 description = "Build the gs binary"
 

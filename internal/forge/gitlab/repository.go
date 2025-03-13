@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/charmbracelet/log"
+	"github.com/dieend/git-spice/internal/forge"
 	gitlab "gitlab.com/gitlab-org/api/client-go"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // Repository is a GitLab repository.

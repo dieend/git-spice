@@ -8,7 +8,7 @@ import (
 	"io"
 
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/spice/state/storage"
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 )
 
 // DB provides a key-value store that holds JSON values.

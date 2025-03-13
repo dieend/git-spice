@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/alecthomas/kong"
-	"go.abhg.dev/gs/internal/cli/shorthand"
+	"github.com/dieend/git-spice/internal/cli/shorthand"
 )
 
 // dumpMarkdownCmd is a hidden commnad that dumps

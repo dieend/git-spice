@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/osutil"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/osutil"
 )
 
 // Main runs the mock editor and exits the process.

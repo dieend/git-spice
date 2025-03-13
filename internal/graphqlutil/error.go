@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/dieend/git-spice/internal/must"
 	"github.com/tidwall/gjson"
-	"go.abhg.dev/gs/internal/must"
 )
 
 // Common errors that may be returned by GraphQL APIs.

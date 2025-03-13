@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"iter"
 
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // PRComment is a ChangeCommentID for a GitHub PR comment.

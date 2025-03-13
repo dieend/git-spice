@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dieend/git-spice/internal/fixturetest"
 	"github.com/stretchr/testify/assert"
-	"go.abhg.dev/gs/internal/fixturetest"
 )
 
 func TestFixture(t *testing.T) {

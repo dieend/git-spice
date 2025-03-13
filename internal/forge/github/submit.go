@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // SubmitChange creates a new change in a repository.

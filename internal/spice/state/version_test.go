@@ -3,9 +3,9 @@ package state
 import (
 	"testing"
 
+	"github.com/dieend/git-spice/internal/spice/state/storage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/spice/state/storage"
 	"go.uber.org/mock/gomock"
 )
 

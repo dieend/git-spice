@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dieend/git-spice/internal/ui"
 	"github.com/rogpeppe/go-internal/testscript"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/ui"
 )
 
 // RunScriptsOptions defines options for RunScripts.

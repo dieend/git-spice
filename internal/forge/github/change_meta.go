@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // PRMetadata is the metadata for a pull request.

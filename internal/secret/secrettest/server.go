@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go.abhg.dev/gs/internal/secret"
+	"github.com/dieend/git-spice/internal/secret"
 )
 
 // Server is a test server for secret.Stash.

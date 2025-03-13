@@ -1,4 +1,4 @@
-module go.abhg.dev/gs
+module github.com/dieend/git-spice
 
 go 1.24.0
 

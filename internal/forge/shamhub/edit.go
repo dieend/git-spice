@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"go.abhg.dev/gs/internal/forge"
+	"github.com/dieend/git-spice/internal/forge"
 )
 
 type editChangeRequest struct {

@@ -3,8 +3,8 @@ package cmputil_test
 import (
 	"testing"
 
+	"github.com/dieend/git-spice/internal/cmputil"
 	"github.com/stretchr/testify/assert"
-	"go.abhg.dev/gs/internal/cmputil"
 )
 
 func TestZero(t *testing.T) {

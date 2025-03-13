@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
+	"github.com/dieend/git-spice/internal/graph"
 	"github.com/stretchr/testify/assert"
-	"go.abhg.dev/gs/internal/graph"
 )
 
 func TestToposort(t *testing.T) {

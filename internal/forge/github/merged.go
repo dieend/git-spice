@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/dieend/git-spice/internal/forge"
 	"github.com/shurcooL/githubv4"
-	"go.abhg.dev/gs/internal/forge"
 )
 
 // ChangesAreMerged reports whether the given changes have been merged.

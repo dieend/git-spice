@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/alecthomas/kong"
+	"github.com/dieend/git-spice/internal/cli/shorthand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/cli/shorthand"
 )
 
 func TestBuiltinSource(t *testing.T) {

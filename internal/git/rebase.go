@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go.abhg.dev/gs/internal/must"
+	"github.com/dieend/git-spice/internal/must"
 )
 
 // RebaseInterruptKind specifies the kind of rebase interruption.

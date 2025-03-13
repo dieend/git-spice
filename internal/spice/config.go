@@ -10,7 +10,7 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/buildkite/shellwords"
 	"github.com/charmbracelet/log"
-	"go.abhg.dev/gs/internal/git"
+	"github.com/dieend/git-spice/internal/git"
 )
 
 const (

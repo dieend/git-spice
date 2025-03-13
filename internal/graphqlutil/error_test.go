@@ -7,9 +7,9 @@ import (
 	"testing"
 	"testing/iotest"
 
+	"github.com/dieend/git-spice/internal/graphqlutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.abhg.dev/gs/internal/graphqlutil"
 )
 
 func TestResponseError(t *testing.T) {

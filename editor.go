@@ -5,7 +5,7 @@ import (
 	"context"
 	"os"
 
-	"go.abhg.dev/gs/internal/git"
+	"github.com/dieend/git-spice/internal/git"
 )
 
 // gitEditor returns the editor to use
